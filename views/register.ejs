@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+
+    <h1 class="registerHeading">Every blood donor is a life saver!</h1>
+    <form class="registerForm" method="POST">
+        <div class="form-group">
+            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="group" placeholder="Blood group name" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Email address" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="mobileNumber" placeholder="Mobile number" required>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+
+    <%- include("partials/footer"); -%>

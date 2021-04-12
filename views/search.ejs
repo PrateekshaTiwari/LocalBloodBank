@@ -1,3 +1,18 @@
 <%- include("partials/header"); -%>
-
+<div>
+    <h3>
+        Search for blood banks near your location
+        <br>
+        <form action="/find" method="post">
+            <div class="form-group">
+            <label for="cityinput">Enter Location</label><br>
+            <input id="cityinput" class="form-control" type="text" name="cityname">
+            <button type="submit" class="btn btn-dark">Search</button>
+            </div>
+            </form>
+    </h3>
+</div>
+<div class="card"> 
+   <b><%=n%><%=name%><br><%=ad%><%=addr%><br><%=la%><%=lat%><br><%=lo%><%=long%></b> 
+</div>
 <%- include("partials/footer"); -%>

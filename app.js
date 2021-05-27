@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var axios = require("axios").default;
 const ejs = require("ejs");
-
+const newsRouter = require('./views/news')
 const app = express();
 
 app.use(express.static("public"));
@@ -56,10 +56,13 @@ app.post("/find", function(req,res){
       
     });
 
-
-app.get("/more", function(req,res){
+   
+  
+    
+    app.use('/article', newsRouter);
+/**app.get("/more", function(req,res){
     res.render("more");
-})
+})**/
 
 app.listen(3000, function(){
     console.log("Server is running at port 3000");

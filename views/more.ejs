@@ -1,3 +1,24 @@
 <%- include("partials/header"); -%>
 
+<header class="header">
+    <div class="header__logo">BLOOD HEALTH ARTICLES</div>
+</header>
+
+<div class="wrapper">
+    <div class="news">
+        <% if(articles != null) {  %>
+        <% articles.forEach(function(article, index) { %>
+            <a href="/article/<%-index-%>" class="news__card">
+                <h2><%- article.title%></h2>
+                <img src="<%- article.image.url %>" alt="<%- article.title %>">
+                <p><%- article.description %></p>
+            </a>
+        <% }) %>
+        <% } else { %>
+            No posts found.
+        <% } %>
+    </div>
+</div>  
+
+
 <%- include("partials/footer"); -%>

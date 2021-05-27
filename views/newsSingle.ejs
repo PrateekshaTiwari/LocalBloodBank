@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<header class="header">
+    <div class="header__logo">BLOOD HEALTH ARTICLES</div>
+</header>
+
+<div class="wrapper">
+    <div class="news-single">
+            <a href="/">&larr;- Back</a>
+            <% if(article != null) { %>
+                <h2><%- article.title %></h2>
+                <img src="<%- article.image.url %>" alt="<%- article.title %>">
+                <p><%- article.body %></p>
+                <% } else { %>
+                    No posts found.
+                <% } %>
+    </div>
+</div>  
+
+
+<%- include("partials/footer"); -%>

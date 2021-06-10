@@ -1,14 +1,14 @@
 <%- include("partials/header"); -%>
 
 <header class="header">
-    <div class="header__logo">BLOOD HEALTH ARTICLES</div>
+    <div class="header__logo text-center"><b>BLOOD HEALTH ARTICLES</b></div>
 </header>
 
-<div class="wrapper">
+<div class="wrapper text-center card shadow border-0 card-body " style="margin: 5%">
     <div class="news">
         <% if(articles != null) {  %>
         <% articles.forEach(function(article, index) { %>
-            <a href="/article/<%-index-%>" class="news__card">
+            <a href="/article/<%-index-%>" class="news__card ">
                 <h2><%- article.title%></h2>
                 <img src="<%- article.image.url %>" alt="<%- article.title %>">
                 <p><%- article.description %></p>

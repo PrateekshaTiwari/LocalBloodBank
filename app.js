@@ -32,7 +32,7 @@ app.post("/find", function(req,res){
        // params: {text: 'blood bank, saket nagar, kanpur', language: 'en'},
        params: {text: 'blood bank,'+query, language: 'en'},
         headers: {
-          'x-rapidapi-key': '55e0ca442bmshbbc6b2ccd48264ap1ace4fjsn61865348c81f',
+          'x-rapidapi-key': process.env.API_KEY,//'55e0ca442bmshbbc6b2ccd48264ap1ace4fjsn61865348c81f',
           'x-rapidapi-host': 'trueway-places.p.rapidapi.com'
         }
       };

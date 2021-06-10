@@ -16,7 +16,7 @@ var options = {
       toPublishedDate: 'null'
     },
     headers: {
-      'x-rapidapi-key': '55e0ca442bmshbbc6b2ccd48264ap1ace4fjsn61865348c81f',
+      'x-rapidapi-key':  process.env.API_KEY1,//'55e0ca442bmshbbc6b2ccd48264ap1ace4fjsn61865348c81f',
       'x-rapidapi-host': 'contextualwebsearch-websearch-v1.p.rapidapi.com'
     }
   };

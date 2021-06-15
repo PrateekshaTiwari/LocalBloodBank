@@ -1,4 +1,4 @@
-# Local_Blood_Bank
+# LIFELINE
 
 ![Image 1](https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/main.png)  
 

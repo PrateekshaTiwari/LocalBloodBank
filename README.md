@@ -1,8 +1,10 @@
 # LIFELINE
 
 <div align="center">
-    <img width="60%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/main.png" alt="ping pong game pic">
+    <img width="60%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/main.PNG="main pic">
 </div>
+
+
 ![Image 1](https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/main.png)  
 
 ![Image 2](https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/search.png)  

@@ -9,7 +9,7 @@
 </div>
 <br>
 <div align="center" >
-    <img width="60%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/blob/main/screenshots/articles.png" alt="articles">
+    <img width="40%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/blob/main/screenshots/articles.png" alt="articles">
 </div>
 <br>
 <div align="center" >

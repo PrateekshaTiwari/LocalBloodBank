@@ -1,7 +1,7 @@
 # LIFELINE
 
 <div align="center">
-    <img width="60%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/main.PNG="main pic">
+    <img width="60%" src="https://github.com/PrateekshaTiwari/Local_Blood_Bank/blob/main/screenshots/article.png"main pic">
 </div>
 
 

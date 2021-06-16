@@ -8,4 +8,4 @@
 
 ![Image 4](https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/form.png)  
 
-![Image 5](https://github.com/PrateekshaTiwari/Local_Blood_Bank/tree/main/screenshots/articles.png)  
+

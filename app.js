@@ -1,14 +1,19 @@
 require('dotenv').config();
+const mysql = require("mysql");
 const express = require("express");
 const bodyParser = require("body-parser");
 var axios = require("axios").default;
 const ejs = require("ejs");
-const newsRouter = require('./views/news')
+const newsRouter = require('./routes/news');
+const mysqlConnection = require('./connection');
+const dataRoutes = require("./routes/data"); 
 const app = express();
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use("/data",dataRoutes);
 
 
 app.get("/", function(req,res){
@@ -56,8 +61,6 @@ app.post("/find", function(req,res){
       
     });
 
-   
-  
     
     app.use('/article', newsRouter);
 /**app.get("/more", function(req,res){
